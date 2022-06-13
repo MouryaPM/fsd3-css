@@ -244,10 +244,24 @@ border-style :
     em
 
 13.combinators :
-      - descendant selector ( )
-      - child selector (>)
-      - adjacent sibling selector (+)
-      - general sibling selector (~)
+      - descendant selector ( )  div p
+      - child selector (>)       div > p
+      - adjacent sibling selector (+)  div + p
+      - general sibling selector (~)  div ~ p
 
 14.pseudo-class 
       element:hover - mouse over
+
+      :first-child
+15. pseudo-element
+
+  selector::pseudo-element
+    ::first-line - block elements
+     - font 
+     - color 
+     - background
+     - word-spacing 
+     - letter-spacing
+     - text-decoration
+     - text-transform
+     - line-height
