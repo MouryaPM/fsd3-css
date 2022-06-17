@@ -3,6 +3,7 @@
     p, div , button 
     class name 
     id
+3.external stylesheet
 
 CSS
 <p></p>
@@ -265,3 +266,32 @@ border-style :
      - text-decoration
      - text-transform
      - line-height
+
+     ::first-letter
+
+     ::after
+
+  14.display 
+    Flexbox layout
+    flex-direction : row , column , row-reverse , column-reverse
+
+    axis :
+    row  row-reverse
+    main-axis  - justify-content
+    cross-axis - align-items
+
+    column column-reverse
+     main-axis  
+    cross-axis
+
+
+    flex: flex-grow flex-shrink flex-basis
+
+    flex-flow: flex-direction flex-wrap
+    flex-flow: column wrap
+
+    grid :
+    grid-column : grid-column-start grid-colum-end
+
+
+    grid-area: grid-row-start / grid-colum-start /grid-row-end / grid-colum-end

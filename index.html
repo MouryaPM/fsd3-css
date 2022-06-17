@@ -2,150 +2,8 @@
 <html>
   <head>
     <title>CSS</title>
-    <style>
-      /* p {
-        color: rgb(157, 135, 14);
-        background-color: #6affcd;
-      } */
-      /* h2 {
-        color: #b30fea;
-        background-color: #6affcd;
-      } */
-
-      /* .headingOne {
-        color: red;
-      }
-      .headingTwo {
-        background-color: rgb(255, 68, 0);
-      }
-      #firstPara {
-        background-color: green;
-      }
-
-      .headingOne,
-      .colorBlue {
-        color: green;
-      }
-      .colorBlue {
-        color: blue;
-      }
-      #customers {
-        font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-        border-collapse: collapse;
-        width: 100%;
-      }
-      #customers td,
-      #customers th {
-        border: 1px solid #ddd;
-        padding: 8px;
-      }
-      #customers th {
-        padding-top: 10px;
-        padding-bottom: 10px;
-        text-align: left;
-        background-color: rgb(4, 89, 4);
-        color: white;
-      }
-      #customers tr:nth-child(even) {
-        background-color: #f2f2f2;
-      }
-      #customers tr:hover {
-        background-color: #ddd;
-      }
-      .firstul li {
-        display: inline;
-      }
-      .firstul a {
-        text-decoration: none;
-      }
-      .imageFloat {
-        width: 170px;
-        height: 170px;
-        float: right;
-      }
-      .parent {
-        background-color: cyan;
-        text-align: center;
-        padding: 10px;
-        position: relative;
-        height: 200vh;
-      /* } */
-      /* skfjskdj */
-      /* .child-one {
-        background-color: yellow;
-        padding: 5px;
-        position: sticky;
-        top: 10px;
-        left: 0;
-      }
-      .child-two {
-        background-color: tomato;
-        padding: 5px;
-      }
-      .child-three {
-        background-color: green;
-        padding: 5px;
-      }
-      .center-div {
-        background-color: #6affcd;
-        width: 30rem;
-        max-width: 95%;
-        text-align: center;
-        margin: 2rem auto;
-      } */
-      /* div p {
-        background-color: yellow;
-      } */
-
-      /* div > section {
-        background-color: yellow;
-      } */
-      /* div + p {
-        background-color: yellow;
-      } */
-      /* 
-      div ~ p {
-        background-color: yellow;
-      }
-
-      .mouseOver {
-        background-color: green;
-        color: white;
-        padding: 20px;
-        text-align: center;
-      }
-
-      .mouseOver:hover {
-        background-color: blue;
-      }
-      p {
-        display: none;
-        background-color: yellow;
-        padding: 20px;
-      }
-      .hintcss:hover p {
-        display: block;
-      } */
-      /* p:first-child {
-        color: blue;
-      } */
-
-      /* p i:first-child {
-        color: red;
-      } */
-
-      /* p::first-line {
-        color: red;
-        font-weight: 900;
-      }
-      p:first-child::first-line {
-        color: blue;
-      } */
-      p::first-letter {
-        color: red;
-        font-size: 32px;
-      }
-    </style>
+    <link rel="stylesheet" href="styles.css" />
+    <style></style>
   </head>
   <!--  repeat , repeat-x , repeat-y , no-repeat
    style="
@@ -155,6 +13,73 @@
     "
   -->
   <body>
+    <div class="grid-container">
+      <div class="item1">Header</div>
+      <div class="item2">Menu</div>
+      <div class="item3">Main</div>
+      <div class="item4">Right</div>
+      <div class="item5">Footer</div>
+    </div>
+
+    <!-- <div class="flex-container">
+      <div>1</div>
+      <div>2</div>
+      <div>3</div>
+      <div style="flex: 2 1 350px; height: 100px">4</div>
+      <div>6</div>
+      <div>7</div>
+      <div>8</div>
+      <div>9</div>
+      <div>10</div>
+      <div>11</div>
+      <div>12</div>
+      <div>13</div>
+      <div>14</div>
+      <div>15</div>
+      <div>16</div>
+      <div>17</div>
+      <div>18</div>
+      <div>10</div>
+      <div>15</div>
+      <div>16</div>
+      <div>17</div>
+      <div>18</div>
+      <div>10</div> -->
+
+      <!-- <div style="flex-grow: 1">1</div>
+      <div style="flex-grow: 1">2</div>
+      <div style="flex-grow: 8">3</div> -->
+
+      <!-- <div style="order: 3">1</div>
+      <div style="order: 1">2</div>
+      <div style="order: 2">3</div> -->
+      <!-- <div>4</div>
+      <div>5</div>
+      <div>6</div>
+      <div>7</div>
+      <div>8</div>
+      <div>9</div>
+      <div>10</div>
+      <div>11</div>
+      <div>12</div>
+      <div>13</div>
+      <div>14</div>
+      <div>15</div>
+      <div>16</div>
+      <div>17</div>
+      <div>18</div>
+      <div>19</div>
+      <div>20</div> -->
+    </div>
+
+    <!-- <ul>
+      <li>Coffee</li>
+      <li>Tea</li>
+    </ul>
+    <ol>
+      <li>Pens</li>
+    </ol>
+    <h1>This is heading</h1>
     <p>
       Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate
       recusandae, fugiat repellat similique corrupti saepe, reiciendis ipsam
@@ -174,7 +99,7 @@
       rem in. Molestias maiores pariatur, odio incidunt voluptas delectus rem
       expedita nostrum aut quod illo, dignissimos nisi sequi ipsam neque, vitae
       atque repudiandae modi debitis?
-    </p>
+    </p> -->
 
     <!-- <p>This is 1st para <i>first child</i> <i>second child</i></p>
     <p>this is second para <i>first child</i> <i>second child</i></p>
